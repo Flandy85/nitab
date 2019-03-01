@@ -1,0 +1,19 @@
+.header {
+	border: 1px solid black;
+	height: 40pt;
+	margin-top: 0;
+	padding: 0;
+
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		.header-title {
+			font-size: 16px;
+		}
+		.nav-menu {
+			display: flex;
+			justify-content: flex-end;
+
+		}
+	}
+}
