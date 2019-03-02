@@ -1,1 +1,1 @@
-console.log("Testing js file");
+$(function(){console.log("Activate fixed header."),$(window).scroll(function(){var e=$(window).width();1601<=e&&e<=5120?(1090<$(this).scrollTop()&&$("header").addClass("header-fixed-background"),$(this).scrollTop()<1090&&$("header").removeClass("header-fixed-background")):(615<$(this).scrollTop()&&$("header").addClass("header-fixed-background"),$(this).scrollTop()<615&&$("header").removeClass("header-fixed-background"))})});

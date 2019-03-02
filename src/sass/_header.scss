@@ -3,6 +3,9 @@
 	height: 40pt;
 	margin-top: 0;
 	padding: 0;
+	position:fixed;
+	width: 100%;
+    top:0px;
 
 	.nav-bar {
 		display: flex;
@@ -32,4 +35,9 @@
 			
 		}
 	}
+}
+.header-fixed-background {
+	background-color: #000000; /* For browsers that do not support gradients */
+	// background-image: linear-gradient(to right, #7068FB , #6498FD, #53D3D4);
+	background-image: linear-gradient(to right , #007aff, #0f67dd, #1155bd, #0f449d, #09337f);
 }

@@ -29,11 +29,11 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('css'));
 });
 // concat and bundle js script files
-gulp.task('scripts', function() {
-  return gulp.src('src/js/**/*.js')
-    .pipe(concat('bundle.js'))
-    .pipe(gulp.dest('js'));
-});
+// gulp.task('scripts', function() {
+//   return gulp.src('src/js/**/*.js')
+//     .pipe(concat('bundle.js'))
+//     .pipe(gulp.dest('js'));
+// });
 
 /*Adds webprefixes*/
 // gulp.task('default', function() {
@@ -54,8 +54,8 @@ gulp.task('htmltask', function(){
       .pipe(gulp.dest('./site'));
 });
 // gulp task watchers, sass, css, html and js scripts
-gulp.task('watch', ['jsMinify','sass', 'scripts', 'htmltask'], function (){
+gulp.task('watch', ['jsMinify','sass', 'htmltask'], function (){
   gulp.watch('src/sass/**/*.scss', ['sass']); 
-  gulp.watch('src/js/**/*.js', ['scripts']);
+  gulp.watch('src/js/**/*.js', ['jsMinify']);
   // Other watchers
 });

@@ -7,6 +7,8 @@
   	<meta name="author" content="Anders Gustavsson">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  	<script src="<?php echo get_template_directory_uri(); ?>'/js/app.js'"></script>
 	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 </head>
