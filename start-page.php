@@ -36,7 +36,7 @@
 				<div class="third-container-parallax">
 					<h2>Kontaka oss</h2>
 					<div class="contact-form-block" id="contact">
-						
+						<?php echo get_field('form-shortcode'); ?>
 					</div>
 				</div>
 				<!-- <div class="first-container">

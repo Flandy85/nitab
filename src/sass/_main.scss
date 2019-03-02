@@ -90,4 +90,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    .contact-form-block {
+    	display: flex!important;
+    	flex-direction: column!important;
+    	flex-wrap: wrap;
+    	align-items: center;
+    	background-color: #fff;
+    	width: 85%;
+    	#wpforms-form-35 {
+			display: flex;
+    		flex-direction: column;
+    	}
+    	#wpforms-35-field_1-container {
+    		display: flex;
+    		flex-direction: column;
+    	}
+    	#wpforms-35-field_3-container {
+    		display: flex;
+    		flex-direction: column;
+    	}
+    	#wpforms-35-field_2-container {
+    		display: flex;
+    		flex-direction: column;
+    	}
+    	.wpforms-field .wpforms-field-hp {
+    		display: none!important;
+    	}
+    }
 }
