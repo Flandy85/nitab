@@ -11,7 +11,7 @@ add_action('init', 'replace_jquery');
 
 function nitab_scripts_enqueue() {
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/style.css', null, '1.0', 'all' );
-	wp_enqueue_style('googlefonts', '//fonts.googleapis.com/css?family=Roboto:400,500,700');
+	wp_enqueue_style('googlefonts', '//fonts.googleapis.com/css?family=Poppins:300,400,700');
 
 	// Load Javascript
 	wp_enqueue_script('customjs', get_template_directory_uri() . '/js/app.js', null, '1.0', true);

@@ -21,14 +21,22 @@
 	display: flex;
 	justify-content: center;
 	background-color: #f2f2f2;
-	height: 300pt;
+	height: auto;
 	.first-text-block {
 		background-color: #fff;
-		border: 1px solid black;
-		padding: 5pt;
-		margin-top: 10pt;
-		height: 250pt;
+		border-radius: 10pt;
+		padding: 10pt;
+		margin: 20pt 0 20pt 0;
+		height: 300pt;
 		width: 85%;
+		h2 {
+			font-family: 'Poppins', sans-serif;
+		}
+		p {
+			font-family: 'Poppins', sans-serif;
+			color: #a6a6a6;
+			line-height: 1.35;
+		}
 	}
 }
 .second-container-parallax {
@@ -37,7 +45,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("summer.jpg");
-    height: 500pt; 
+    height: 300pt; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -49,25 +57,37 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	background-color: #f2f2f2;
-
-	.1st-person-text-block {
+	height: auto;
+	.p1-text-block, .p2-text-block {
 		background-color: #fff;
-		border: 1px solid black;
-		padding: 5pt;
-		margin-top: 10pt;
+		border-radius: 10pt;
+		padding: 10pt;
+		margin: 20pt 0 20pt 0;
 		height: 250pt;
 		width: 85%;
 		h3 {
-			color: blue;
+			font-family: 'Poppins', sans-serif;
+		}
+		p {
+			font-family: 'Poppins', sans-serif;
+			color: #a6a6a6;
+			line-height: 1.35;
 		}
 	}
-	.2nd-person-text-block {
-		background-color: #fff;
-		border: 1px solid black;
-		padding: 5pt;
-		margin-top: 10pt;
-		height: 250pt;
-		width: 85%;
-	}
+}
+.third-container-parallax {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("sattelit-contact.jpg");
+    height: 300pt; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

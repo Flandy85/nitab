@@ -1,5 +1,4 @@
 .header {
-	border: 1px solid black;
 	height: 40pt;
 	margin-top: 0;
 	padding: 0;
@@ -39,5 +38,6 @@
 .header-fixed-background {
 	background-color: #000000; /* For browsers that do not support gradients */
 	// background-image: linear-gradient(to right, #7068FB , #6498FD, #53D3D4);
-	background-image: linear-gradient(to right , #007aff, #0f67dd, #1155bd, #0f449d, #09337f);
+	// background-image: linear-gradient(to right , #007aff, #0f67dd, #1155bd, #0f449d, #09337f);
+	background-image: linear-gradient(to right top, #acb5c7, #8d96ad, #6f7993, #525c7a, #374162);
 }
