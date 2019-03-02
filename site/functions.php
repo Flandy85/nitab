@@ -15,4 +15,9 @@ function nitab_theme_setup() {
 	register_nav_menu( 'primary', 'Website main navigation' );
 }
 add_action('init', 'nitab_theme_setup');
+
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
+add_action('get_header', 'remove_admin_login_header');
 ?>

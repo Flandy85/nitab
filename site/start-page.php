@@ -8,6 +8,7 @@
 				
 				the_post();
 				?> <h1>This is the main page</h1> <?php
+				
 			}	
 		}	
 	?> </main>

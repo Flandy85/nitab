@@ -12,7 +12,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<header class="header">
-		<nav class="nav">
+		<nav class="nav-bar">
 			<a href="<?php echo home_url(); ?>">
 				<!-- <img src="<?php //echo get_template_directory_uri(); ?>/src/images/logo.png" class="nitab-logo" alt="Image of the company Nitab Logo"/> -->
 				<h1 class="header-title">Norrsidans installation & Teknik AB</h1>

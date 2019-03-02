@@ -1,3 +1,47 @@
-h1 {
-	color: blue;
+
+.first-container-parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("cold-forest.jpg");
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .first-img {
+		height: 250pt;
+		width: auto;
+	}
+}
+.second-container {
+	display: flex;
+	justify-content: center;
+	background-color: #f2f2f2;
+	height: 300pt;
+	.text-block {
+		background-color: #fff;
+		border: 1px solid black;
+		padding: 5pt;
+		margin-top: 10pt;
+		height: 250pt;
+		width: 85%;
+	}
+}
+.second-container-parallax {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("summer.jpg");
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
