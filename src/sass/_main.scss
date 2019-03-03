@@ -23,7 +23,9 @@
 	background-color: #f2f2f2;
 	height: auto;
 	.first-text-block {
-		background-color: #fff;
+		// background-color: #fff;
+		background-color: #f2f2f2;
+		transition: background-color 250ms linear;
 		border-radius: 10pt;
 		padding: 10pt;
 		margin: 20pt 0 20pt 0;
@@ -37,6 +39,9 @@
 			color: #a6a6a6;
 			line-height: 1.35;
 		}
+	}
+	.first-text-block:hover {
+		background-color: #fff;
 	}
 }
 .second-container-parallax {
@@ -67,7 +72,8 @@
 	background-color: #f2f2f2;
 	height: auto;
 	.p1-text-block, .p2-text-block {
-		background-color: #fff;
+		background-color: #f2f2f2;
+		transition: background-color 250ms linear;
 		border-radius: 10pt;
 
 		padding: 10pt;
@@ -84,6 +90,9 @@
 			color: #a6a6a6;
 			line-height: 1.35;
 		}
+	}
+	.p1-text-block:hover, .p2-text-block:hover {
+		background-color: #fff;
 	}
 }
 .third-container-parallax {
