@@ -1,5 +1,17 @@
+
+
+
+
 @import "normalize";
 @import "base";
 @import "header";
 @import "main";
 @import "footer";
+
+/* Tablets*/
+@media screen and (min-width: 600px)  {
+	@import "tabletview";
+}
+@media screen and (min-width: 800px)  {
+	@import "small-screens";
+}

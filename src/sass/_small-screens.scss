@@ -1,0 +1,41 @@
+.first-container-parallax {
+  
+  .first-img {
+		height: 300pt;
+	}
+}
+.first-container {
+	
+	.first-text-block {
+		
+		h2 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 1.25rem;
+		}
+	}
+}
+.second-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	.p1-text-block, .p2-text-block {
+		
+		width: 45%;
+		height: auto;
+		h3 {
+			font-size: 1.50rem;
+		}
+	}
+}
+.third-container-parallax {
+	
+    h2 {
+    	font-size: 2rem;
+    }
+    .contact-form-block {
+		width: 55%;
+	}
+}

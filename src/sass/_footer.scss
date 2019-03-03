@@ -1,0 +1,29 @@
+.footer-container {
+	background-image: linear-gradient(to right top, #acb5c7, #8d96ad, #6f7993, #525c7a, #374162);
+	height: auto;
+	.info-block {
+		address {
+			margin-left: 10pt;
+			h3, p {
+				color: #fff;
+				font-family: 'Poppins', sans-serif;
+			}
+			h3 {
+				margin: 0;
+				padding: 15pt 0 0 0;
+			}
+			p {
+				margin: 0;
+				padding: 0;
+			}
+
+		}
+		.all-rights-block {
+			p {
+				font-family: 'Poppins', sans-serif;
+				margin: 10pt 0 0 10pt;
+				padding: 0;
+			}
+		}
+	}
+}
