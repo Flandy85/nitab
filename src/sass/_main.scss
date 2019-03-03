@@ -52,6 +52,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    h2 {
+    	color: #fff;
+    	font-size: 2.5rem;
+    	font-family: 'Poppins', sans-serif;
+
+    }
 }
 .second-container {
 	display: flex;
@@ -83,38 +89,135 @@
     justify-content: flex-start;
     align-items: center;
     background-image: url("sattelit-contact.jpg");
-    height: 300pt; 
+    // height: 300pt; 
+    height: auto;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    h2 {
+    	color: #fff;
+    	font-family: 'Poppins', sans-serif;
+    }
     .contact-form-block {
     	display: flex!important;
     	flex-direction: column!important;
     	flex-wrap: wrap;
     	align-items: center;
-    	background-color: #fff;
-    	width: 85%;
+    	// background-color: #f2f2f2;
+    	background-image: linear-gradient(to right, #acb5c7, #8d96ad, #6f7993, #525c7a, #374162);
+    	border-radius: 10pt;
+    	margin-bottom: 20pt;
+    	height: auto;
+    	width: 90%;
+    	#wpforms-35 {
+			
+    		width: 90%;
+    		padding: 10pt;
+    		margin: auto;
+    	}
+    	#wpforms-35-field_4-container {
+			display: flex;
+    		flex-direction: column;
+    		font-family: 'Poppins', sans-serif;
+    		border-radius: 20pt; 
+    		margin-top: 10pt;
+    	}
     	#wpforms-form-35 {
 			display: flex;
     		flex-direction: column;
+    		font-family: 'Poppins', sans-serif;
+
     	}
     	#wpforms-35-field_1-container {
     		display: flex;
     		flex-direction: column;
+    		font-family: 'Poppins', sans-serif;
+    		border-radius: 20pt;
+    		margin-top: 10pt;
     	}
     	#wpforms-35-field_3-container {
     		display: flex;
     		flex-direction: column;
+    		border-radius: 20pt;
+    		font-family: 'Poppins', sans-serif;
+    		margin-top: 10pt;
     	}
     	#wpforms-35-field_2-container {
     		display: flex;
     		flex-direction: column;
+    		border-radius: 20pt;
+    		font-family: 'Poppins', sans-serif;
+    		margin-top: 10pt;
+    	}
+    	#wpforms-submit-35 {
+    		border-radius: 20pt;
+    		font-family: 'Poppins', sans-serif;
+    		margin-top: 10pt;
+    		height: 30pt;
+    		width: 50%;
+    	}
+    	label {
+    		color: #fff;
+    		margin-left: 5pt;
+    	}
+    	input[type="text"], input[type="email"] {
+    		border: 1px solid #f2f2f2;
+    		background-color: #f2f2f2;
+    		border-radius: 10pt;
+    		height: 30pt;
+    		transition: background-color 250ms linear;
+    		transition: border-color 250ms linear;
+    	}
+    	input[type="text"]:hover, input[type="email"]:hover {
+    		background-color: #fff;
+    		border-color: #fff;
+    		
+    	}
+    	// input[type="email"] {
+    	// 	border-style: none;
+    	// 	border-radius: 10pt;
+    	// 	height: 30pt;
+    	// }
+    	input::placeholder {
+    	  color: #a6a6a6;
+    	  font-family: 'Poppins', sans-serif;
+		  padding-left: 5pt;
+		}
+
+    	#wpforms-35-field_2 {
+    		background-color: #f2f2f2; 
+    		transition: background-color 250ms linear;
+    		border-style: none;
+    		border-radius: 10pt;
+    	}
+    	#wpforms-35-field_2:hover {
+    		background-color: #fff; 
+    		border-style: none;
+    		border-radius: 10pt;
+    	}
+    	.wpforms-submit-container {
+    		display: flex;
+    		justify-content: center;
+    	}
+    	button[type="submit"] {
+    		background-color: #f2f2f2;
+    		transition: background-color 250ms linear;
+    		color: #a6a6a6;
+    		transition: color 250ms linear;
+    		font-family: 'Poppins', sans-serif;
+    	}
+    	button[type="submit"]:hover {
+    		background-color: #fff;	
+    		color: #000000;
     	}
     	.wpforms-field .wpforms-field-hp {
     		display: none!important;
+    	}
+    	.wpforms-field, .wpforms-field-hp {
+    		display: none;
     	}
     }
 }

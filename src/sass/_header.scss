@@ -5,16 +5,22 @@
 	position:fixed;
 	width: 100%;
     top:0px;
-
+	
 	.nav-bar {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		.header-title {
-			font-size: 16px;
-			margin: 0;
-			padding: 0;
+		a {
+			text-decoration: none;
+			.header-title {
+				color: #a6a6a6;
+				font-size: 16px;
+				font-family: 'Poppins', sans-serif; 
+				margin: 12pt 0 0 0;
+				padding: 0;
+			}
 		}
+		
 		.nav-menu {
 			list-style: none;
 			.menu {
