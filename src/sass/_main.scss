@@ -6,7 +6,6 @@
   align-items: center;
   background-image: url("cold-forest.jpg");
   height: 500pt; 
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -24,25 +23,31 @@
 	height: auto;
 	.first-text-block {
 		// background-color: #fff;
-		background-color: #f2f2f2;
+		background-color: #fff;
 		transition: background-color 250ms linear;
 		border-radius: 10pt;
+		color: #a6a6a6;
+		transition: color 250ms linear;
 		padding: 10pt;
 		margin: 20pt 0 20pt 0;
 		height: 300pt;
 		width: 85%;
 		h2 {
 			font-family: 'Poppins', sans-serif;
+			color: #000000;
 		}
 		p {
 			font-family: 'Poppins', sans-serif;
-			color: #a6a6a6;
+			
 			line-height: 1.35;
 		}
 	}
 	.first-text-block:hover {
-		background-color: #fff;
+		color: #000000;
 	}
+	// .first-text-block:hover {
+	// 	background-image: linear-gradient(to right, #acb5c7, #8d96ad, #6f7993, #525c7a, #374162);
+	// }
 }
 .second-container-parallax {
 	display: flex;
@@ -67,32 +72,46 @@
 .second-container {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	background-color: #f2f2f2;
 	height: auto;
+	
 	.p1-text-block, .p2-text-block {
-		background-color: #f2f2f2;
-		transition: background-color 250ms linear;
-		border-radius: 10pt;
-
-		padding: 10pt;
 		margin: 20pt 0 20pt 0;
-		height: 250pt;
-		width: 85%;
-		h3 {
-			border-bottom: 1px solid #a6a6a6;
-			color: #a6a6a6;
-			font-family: 'Poppins', sans-serif;
+		height: auto;
+		width: 84%;
+		.p1-img {
+			height: auto;
+			width: 100%;
 		}
-		p {
-			font-family: 'Poppins', sans-serif;
-			color: #a6a6a6;
-			line-height: 1.35;
+		.p2-img {
+			height: auto;
+			width: 100%;
 		}
-	}
-	.p1-text-block:hover, .p2-text-block:hover {
-		background-color: #fff;
+		.p1-text, .p2-text {
+			background-image: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);
+			transition: background-image 300ms linear;
+			border-bottom: 10pt;
+			color: #a6a6a6;
+			transition: color 300ms linear;
+			padding: 10pt;
+			h3, p {
+				font-family: 'Poppins', sans-serif;
+				margin: 0 0 10pt 0;
+			}
+			h3 {
+				border-bottom: 1px solid #a6a6a6;
+			}
+			p {
+				line-height: 1.35;
+			}
+		}
+		.p1-text:hover, .p2-text:hover {
+			background-image: linear-gradient(to right, #acb5c7, #8d96ad, #6f7993, #525c7a, #374162);
+			color: #fff;
+		}
 	}
 }
 .third-container-parallax {
@@ -101,7 +120,6 @@
     justify-content: flex-start;
     align-items: center;
     background-image: url("sattelit-contact.jpg");
-    // height: 300pt; 
     height: auto;
 
     /* Create the parallax scrolling effect */
@@ -194,11 +212,6 @@
     		border-color: #fff;
     		
     	}
-    	// input[type="email"] {
-    	// 	border-style: none;
-    	// 	border-radius: 10pt;
-    	// 	height: 30pt;
-    	// }
     	input::placeholder {
     	  color: #a6a6a6;
     	  font-family: 'Poppins', sans-serif;
