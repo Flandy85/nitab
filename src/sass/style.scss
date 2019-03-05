@@ -21,3 +21,9 @@
 @media screen and (min-width: 1366px)  {
 	@import "large-screens";
 }
+@media screen and (min-width: 1600px)  {
+	@import "larger-screens";
+}
+@media screen and (min-width: 1600px)  {
+	@import "largest-screens";
+}

@@ -1,0 +1,47 @@
+.first-container-parallax {
+  height: 600pt;
+  .first-img {
+		height: 500pt;
+	}
+}
+.first-container {
+	
+	.first-text-block {
+		width: 65%;
+		h2 {
+			font-size: 3.50rem;
+		}
+		p {
+			font-size: 1.75rem;
+		}
+	}
+}
+.second-container-parallax {
+	height: 500pt;
+    h2 {
+    	
+    	font-size: 3.5rem;
+
+    }
+}
+.second-container {
+	.p1-text-block, .p2-text-block {
+		
+		width: 40%;
+		height: auto;
+		h3 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.55rem;
+		}
+	}
+}
+.third-container-parallax {
+	h2 {
+		font-size: 3.5rem;
+	}
+	.contact-form-block {
+		width: 45%;
+	}
+}
