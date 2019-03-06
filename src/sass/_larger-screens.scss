@@ -43,5 +43,20 @@
 	}
 	.contact-form-block {
 		width: 45%;
+
+		label {
+    		font-size: 1.25rem;
+    	}
+    	#wpforms-35-field_4-container, 
+    	#wpforms-35-field_1-container,
+    	#wpforms-35-field_3-container,
+    	#wpforms-35-field_2-container {
+    		label {
+    			font-size: 1.25rem;
+    		}
+    		#wpforms-35-field_4 {
+    			border-radius: 12pt;
+    		}
+    	}
 	}
 }

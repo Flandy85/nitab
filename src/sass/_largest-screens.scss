@@ -1,18 +1,26 @@
 .first-container-parallax {
-  height: 695pt;
+  height: 760pt;
   .first-img {
-		height: 500pt;
+		height: 550pt;
 	}
 }
 .first-container {
 	
 	.first-text-block {
-		width: 60%;
-		h2 {
-			font-size: 3.50rem;
-		}
-		p {
-			font-size: 1.75rem;
-		}
+		width: 51%;
+	}
+}
+.second-container-parallax {
+	height: 550pt;
+}
+.second-container {
+	.p1-text-block, .p2-text-block {
+		width: 35%; 
+	}
+}
+.third-container-parallax {
+	height: 620pt;
+	.contact-form-block {
+		width: 30%;
 	}
 }
